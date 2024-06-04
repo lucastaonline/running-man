@@ -100,7 +100,7 @@ export default function RunningMan() {
 
     if (!falasTempos.current.umMinuto && duracao.as("minutes") >= 1) {
       falouAlgo = true;
-      falasTempos.current.dezSegundos = true;
+      falasTempos.current.umMinuto = true;
       setFalas("Um minuto hein.... está ficando interessante");
     }
 
